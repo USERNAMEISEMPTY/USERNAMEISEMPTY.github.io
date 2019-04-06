@@ -47,8 +47,10 @@ ADB的主要功能有以下:
 ```shell
     $ adb shell
 ```
-找到系统自带应用目录，（MIUI10开发版在/system/priv-app），删除目标应用（Browser），然后重启
+列出软件包名，找到软件包于系统对应目录，删除目标应用（Browser），然后重启
 ```shell
+    sagit:/ # pm -l
+    sagit:/ # pm path com.miui.browser
     sagit:/ # cd system/priv-app/
     sagit:/system/priv-app # ls
     sagit:/system/priv-app # rm -rf Browser
