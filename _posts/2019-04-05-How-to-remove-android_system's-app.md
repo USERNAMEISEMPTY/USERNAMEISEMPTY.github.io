@@ -52,7 +52,6 @@ ADB的主要功能有以下:
     sagit:/ # pm -l
     sagit:/ # pm path com.miui.browser
     sagit:/ # cd system/priv-app/
-    sagit:/system/priv-app # ls
     sagit:/system/priv-app # rm -rf Browser
     sagit:/system/priv-app # reboot
 ```
