@@ -10,8 +10,10 @@ tag: android
     java.io.IOException: Cleartext HTTP traffic to www.bing.com not permitted
 ```
 查了一下才知道android9.0（API=28）中限制了android应用发送明文的数据，解决方案如下：
-1.：改用https
-2.：在AndroidManifest文件中的application标签中添加如下属性
+
+1.改用https
+
+2.在AndroidManifest文件中的application标签中添加如下属性
 ```java
     android:usesCleartextTraffic="true"
 ```
