@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (API=28)
+title: Http data change in Android9.0(API=28)
 date: 2019-07-09 00:00:00 +0800
 categories: note
 tag: android
