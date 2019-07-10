@@ -5,7 +5,7 @@ date: 2019-06-23 00:00:00 +0800
 categories: note
 tag: android
 ---
-在android8.0以上想要发送通知（send Notification）要通过通知渠道（NotificationChannel）来发送
+在android8.0中及以上想要发送通知（send Notification）要通过通知渠道（NotificationChannel）来发送
 
 [Build Notification-android 官网](https://developer.android.google.cn/training/notify-user/build-notification.html)
 
