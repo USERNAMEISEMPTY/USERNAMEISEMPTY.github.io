@@ -1,0 +1,11 @@
+---
+layout: post
+title: git set proxy
+date: 2019-10-22 00:00:00 +0800
+categories: note
+tag: git
+---
+```shell
+        git config --global http.proxy 'socks5://127.0.0.1:1080'
+        git config --global https.proxy 'socks5://127.0.0.1:1080'
+```
