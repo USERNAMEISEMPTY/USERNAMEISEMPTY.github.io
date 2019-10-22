@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solve mysql install in ubuntu whitout point input password
+title: Solve mysql install in ubuntu without point input password
 date: 2019-10-22 00:00:00 +0800
 categories: note
 tag: mysql
